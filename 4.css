@@ -1,0 +1,8 @@
+body {
+  counter-reset: mycounter;
+}
+
+h2:before {
+    counter-increment: mycounter;
+    content: "Section " counter(mycounter) " - ";
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 100vh;
+  font-size: 72px;
+  scroll-snap-align: end;
+}
+
+section:nth-child(1) {
+  background-color: lightblue;
+}
+section:nth-child(2) {
+  background-color: lightcoral;
+}
+section:nth-child(3) {
+  background-color: lightcyan;
+}
+section:nth-child(4) {
+  background-color: lightgoldenrodyellow;
+}
+section:nth-child(5) {
+  background-color: lightgray;
+}
